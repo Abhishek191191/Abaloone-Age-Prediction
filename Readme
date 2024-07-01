@@ -1,1 +1,16 @@
 This file contains the description about the project.
+
+The RMSLE is calculated as:
+1n∑i=1n(log(1+y^i)−log(1+yi))2−−−−−−−−−−−−−−−−−−−−−−−−−−√
+where:
+
+n
+ is the total number of observations in the test set,
+y^i
+ is the predicted value of the target for instance (i),
+yi
+ is the actual value of the target for instance (i), and,
+log
+ is the natural logarithm.
+
+ this is the function that we require for calculating the accuracy of our model.
